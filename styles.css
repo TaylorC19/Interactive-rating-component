@@ -1,0 +1,105 @@
+ body {
+   margin-top: 100px;
+  font-family: 'Overpass', sans-serif;
+  background-color: #141519;
+  color: #FFFFFF;
+ }
+
+h1 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+}
+
+.center {
+  text-align: center;
+}
+
+#addScore {
+  display: block;
+  background-color: #282E38;
+  width: 55%;
+  border-radius: 15px;
+  color: hsl(25, 97%, 53%);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px;
+}
+
+/* images */
+.img-star {
+  background-color: #282E38;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.img-thank-you {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+/* buttons */
+.submit {
+  background-color: hsl(25, 97%, 53%);
+  width: 100%;
+  border-radius: 25px;
+  color: white;
+}
+
+.submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  outline: none;
+}
+
+.btn-scale {
+  background-color: hsl(216, 12%, 54%);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+/* removes the bootstrap border */
+/* .button:active,
+ button:active,
+.button:focus,
+ button:focus,
+.button:hover,
+ button:hover{
+    border:none !important;
+    outline:none !important;
+} */
+/* DIDN'T WORK */
+
+
+.btn-scale:hover {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.active {
+  background-color: hsl(25, 97%, 53%) !important;
+}
+
+
+.container {
+  /* display: flex; */
+  width: 350px;
+  background-color: #1F2630;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.container-scale {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hidden {
+  display: none;
+}
